@@ -19,3 +19,9 @@ description: 手机不开机、不充电、黑屏、电池、摄像头、扬声�
 参考：Apple 液体告警 https://support.apple.com/en-gb/102643 ；充电检查 https://support.apple.com/en-gb/108805 。不同品牌以各自手册为准。
 
 按需参考：[board-level.md](references/board-level.md)、[tools.md](references/tools.md)。
+
+## 按症状推进
+
+- 不充电：查潮湿告警、兼容线缆、适配器和接口外观。
+- 黑屏：比较振动、通话声音及电脑识别，区分供电和显示路径。
+- 摔落或进液：断开外部电源，避免反复开机；重要数据优先保全。

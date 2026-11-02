@@ -2,13 +2,13 @@
 
 [中文说明](README.zh-CN.md)
 
-A router and eight specialized AI agent skills for step-by-step diagnosis and repair of computer hardware and household appliances. Describe the symptoms, share clear photos and report measurements; the assistant helps choose the next test and explains what the result can and cannot establish.
+A router and 16 specialized AI agent skills for step-by-step diagnosis and repair of computer hardware and household appliances. Describe the symptoms, share clear photos and report measurements; the assistant helps choose the next test and explains what the result can and cannot establish.
 
 ## What it covers
 
 - Desktop and laptop power, POST, boot, display and stability problems.
 - Laptop and phone charging, batteries, displays and other components.
-- Televisions, refrigerators and other household appliances: symptom-based triage and safe checks.
+- Monitors, televisions, refrigerators, washing machines, air conditioners and other household appliances: symptom-based triage and safe checks.
 - Graphics cards: detection, display artifacts, temperatures and power circuits.
 - Memory, storage, fans, power supplies and common peripherals.
 - Board-level investigation of capacitors, resistors, diodes, MOSFETs, inductors and low-voltage power rails.
@@ -46,3 +46,15 @@ MIT. See [LICENSE](LICENSE).
 | [tv-repair](skills/tv-repair/SKILL.md) | Televisions |
 | [refrigerator-repair](skills/refrigerator-repair/SKILL.md) | Refrigerators |
 | [appliance-repair](skills/appliance-repair/SKILL.md) | Other household appliances |
+| [monitor-repair](skills/monitor-repair/SKILL.md) | Monitors |
+| [washing-machine-repair](skills/washing-machine-repair/SKILL.md) | Washing machines |
+| [air-conditioner-repair](skills/air-conditioner-repair/SKILL.md) | Air conditioners |
+| [storage-data-triage](skills/storage-data-triage/SKILL.md) | Storage and data protection |
+| [component-soldering](skills/component-soldering/SKILL.md) | Component tests and soldering |
+| [power-charging-diagnostics](skills/power-charging-diagnostics/SKILL.md) | Low-voltage power and charging |
+| [oscilloscope-diagnostics](skills/oscilloscope-diagnostics/SKILL.md) | Oscilloscopes and waveforms |
+| [repair-document-research](skills/repair-document-research/SKILL.md) | Repair documentation and datasheets |
+
+## Checks and maintenance
+
+Run `python -m unittest discover -s tests -v` to check routing, local links and shared reference copies. After editing root `references/`, run `python tests/sync_references.py` and rerun the checks. [Behavioral scenarios](tests/scenarios.zh-CN.md) are in Chinese and require separate evaluation; structural checks do not validate real repairs.

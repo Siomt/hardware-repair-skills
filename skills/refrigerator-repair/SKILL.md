@@ -17,3 +17,9 @@ description: 冰箱不制冷、制冷不足、结霜、漏水、噪声或报警�
 需要清洁的外露部件仅按手册断电进行；不要用尖锐物或热源除冰。制冷不足涉及食品安全时提示按当地权威建议处理易腐食物，不保证食品可食。疑似制冷剂泄漏时避免火花和热源，按设备手册与当地专业服务处理；不得刺破、焊接或拆卸管路、放空/加注制冷剂。部分制冷剂可燃，制冷回路及市电、压缩机控制和电容维修交专业人员。检查结果和温度变化记录给维修人员。
 
 参考：Samsung 制冷与通风 https://www.samsung.com/uk/support/home-appliances/my-samsung-fridge-isnt-cooling/ ；美国 EPA 制冷剂及技术人员要求 https://www.epa.gov/section608/epas-refrigerant-management-program-questions-and-answers-section-608-certified （当地法规可能不同）。
+
+## 按症状推进
+
+- 两室均不冷：查设定、门封、通风及展示模式并记录稳定温度。
+- 冷冻正常冷藏偏暖：查可见风口和门封，比较结霜及时间变化，不直接更换部件。
+- 漏水或噪声：记录位置及阶段；接近电气或制冷管路时交专业人员。

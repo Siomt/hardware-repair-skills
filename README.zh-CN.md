@@ -2,13 +2,13 @@
 
 [English](README.md)
 
-这是一套供 AI Agent 使用的硬件维修 Skill，包含总入口和 8 个独立专项。你可以描述故障、提供清晰照片和测量读数，AI 会帮助选择下一项检查，并解释结果可以说明什么、还不能说明什么。
+这是一套供 AI Agent 使用的硬件维修 Skill，包含总入口和 16 个独立专项。你可以描述故障、提供清晰照片和测量读数，AI 会帮助选择下一项检查，并解释结果可以说明什么、还不能说明什么。
 
 ## 覆盖范围
 
 - 台式机和笔记本的供电、自检、启动、显示及稳定性问题。
 - 笔记本和手机的充电、电池、屏幕及其他部件。
-- 电视、冰箱和其他家用电器的故障分诊与安全检查。
+- 显示器、电视、冰箱、洗衣机、空调和其他家电的故障分诊与安全检查。
 - 显卡识别、花屏、温度及供电问题。
 - 内存、硬盘、风扇、电源和常见外设。
 - 电容、电阻、二极管、MOS 管、电感和低压供电线路的板级排查。
@@ -46,3 +46,15 @@ MIT，详见 [LICENSE](LICENSE)。
 | [tv-repair](skills/tv-repair/SKILL.md) | 电视 |
 | [refrigerator-repair](skills/refrigerator-repair/SKILL.md) | 冰箱 |
 | [appliance-repair](skills/appliance-repair/SKILL.md) | 其他家电 |
+| [monitor-repair](skills/monitor-repair/SKILL.md) | 显示器 |
+| [washing-machine-repair](skills/washing-machine-repair/SKILL.md) | 洗衣机 |
+| [air-conditioner-repair](skills/air-conditioner-repair/SKILL.md) | 空调 |
+| [storage-data-triage](skills/storage-data-triage/SKILL.md) | 存储设备与数据保护 |
+| [component-soldering](skills/component-soldering/SKILL.md) | 元件检测与焊接 |
+| [power-charging-diagnostics](skills/power-charging-diagnostics/SKILL.md) | 低压供电与充电 |
+| [oscilloscope-diagnostics](skills/oscilloscope-diagnostics/SKILL.md) | 示波器与波形 |
+| [repair-document-research](skills/repair-document-research/SKILL.md) | 维修资料与电路图查找 |
+
+## 检查与维护
+
+运行 `python -m unittest discover -s tests -v` 检查路由、相对链接和公共资料副本。修改根目录 `references/` 后运行 `python tests/sync_references.py` 同步专项副本，再运行测试。人工行为场景见 [测试场景](tests/scenarios.zh-CN.md)；自动检查不代表实际维修案例已通过。
