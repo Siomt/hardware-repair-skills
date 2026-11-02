@@ -1,4 +1,4 @@
-# Computer Hardware Repair Skill
+# Hardware Repair Skills
 
 [中文说明](README.zh-CN.md)
 

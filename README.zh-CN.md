@@ -1,4 +1,4 @@
-# 电脑硬件检测与维修 Skill
+# 硬件检测与维修 Skills
 
 [English](README.md)
 
